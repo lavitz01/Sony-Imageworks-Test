@@ -1,0 +1,9 @@
+#!/bin/bash
+
+xrandr -s 2048x871
+ # the origional size dimentions are 2048 x 1556 which has an aspect ratio of 1.31 when you divide them
+#set up inequality: 2048/2048 x 1556x = 871.84 
+#when 2048 divided by 2.35, the result was 871.489362 (float) and 871 (int)
+ #xrand is a command to force a change of resolution
+# final resolution is 2048x871
+
