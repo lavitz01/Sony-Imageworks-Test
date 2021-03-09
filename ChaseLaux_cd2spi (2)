@@ -1,3 +1,0 @@
-#!bin/bash
-
-echo "Enter path to desired directory"; read  dirName; cd "$dirName";  rename 'y/A-Z/a-z/' *;for file in *; do mv "$file" `echo $file | tr '-' '_'` ; done; rename  'our $i; s/_.*/sprintf("_%04d.jpg", ($i++)+1)/e' *.jpg; mmv '*dscn_*' '#1home_test_v1_misc_bg8.#2'
