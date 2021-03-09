@@ -1,0 +1,3 @@
+#!/bin/sh
+res="2500x1899" && identify *.jpg  | ./itstat | grep -B 1  "$res"  | grep "File:" | sed "s/$/: $res/" | sed 's/File: //' |
+
